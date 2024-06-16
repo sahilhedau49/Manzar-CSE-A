@@ -2,7 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Century Gothic;
+}
+
+body {
+  background: #251430;
 }
 
 .main-page {
@@ -246,13 +249,15 @@ td {
     font-size: 1.1rem;
   }
 
-  .firsttable,
+  .firsttable {
+    width: 80vw;
+  }
   .thirdtable {
-    width: 90vw;
+    width: 80vw;
   }
 
   .sectable {
-    width: 90vw;
+    width: 80vw;
   }
 
   .firsttable,
@@ -292,5 +297,10 @@ td {
 
   th {
     color: #fff;
+  }
+
+  .thirdtable tr th,
+  .thirdtable tr td {
+    font-size: 10px;
   }
 }
